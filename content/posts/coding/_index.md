@@ -1,4 +1,4 @@
 ---
-title: "折腾"
+title: "技术档"
 sulg: "coding"
 ---

@@ -1,4 +1,4 @@
 ---
-title: "日常"
+title: "碎碎念"
 slug: "daily"
 ---

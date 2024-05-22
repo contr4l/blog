@@ -1,8 +1,8 @@
-baseURL  =  "https://immmmm.com"
+baseURL  =  "https://blog.luulyuan.cc"
 languageCode = "zh-CN"
 # DefaultContentLanguage = "zh-CN"
-title  =  "木木木木木"
-subtitle = "不问明天，悠然浪费"
+title  =  "峍园之家"
+subtitle = ""
 
 theme  =  "hello-friend"
 summaryLength = 140
@@ -32,13 +32,9 @@ ignoreErrors = ["error-remote-getjson"]
   url="/archives/"
   weight="3"
   [[menu.main]]
-  name="导航"
-  url="https://edui123.com/"
-  weight="4"
-  [[menu.main]]
   name="关于"
   url="/about/"
-  weight="5"
+  weight="4"
 
 [params]
   # dir name of your blog content (default is `content/posts`)
@@ -56,7 +52,7 @@ ignoreErrors = ["error-remote-getjson"]
   DateFormatSingle = "2006-01-02 15:04:05"
   ReadMore = "阅读全文"
 
-  EditPath = 'https://github.com/lmm214/immmmm/edit/master/content'
+  EditPath = 'https://github.com/contr4l/edit/master/content'
 
 [markup]
   [markup.goldmark]

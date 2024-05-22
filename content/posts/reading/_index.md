@@ -1,4 +1,4 @@
 ---
-title: "育人"
+title: "闲笔"
 slug: "reading"
 ---
