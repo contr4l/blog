@@ -11,7 +11,7 @@
 <link href="/atom.xml" title="{{ $.Site.Title }}" type="application/rss+xml">
 <link rel="canonical" href="{{ .Permalink }}" />
 <link rel="stylesheet" href="//cdn.staticfile.org/lxgw-wenkai-screen-webfont/1.6.0/lxgwwenkaiscreen.css" media="print" onload="this.media='all'">
-<link rel="stylesheet" href="/theme-20230202.css">
+<link rel="stylesheet" href="/theme-20230203.css">
 <link rel="shortcut icon" href="{{ "favicon.ico" | absURL }}">
 
 <link rel="apple-touch-icon" href="{{ "favicon.ico" | absURL }}">
@@ -26,7 +26,4 @@
 <!-- RSS | JSON -->
 {{ range .AlternativeOutputFormats -}}
     {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .RelPermalink $.Site.Title | safeHTML }}
-{{ end -}}
-{{- if not .Site.IsServer }}
-<script async defer data-website-id="c27bd84b-02a3-4c3f-a168-0d7fadec9c74" src="https://u.edui.fun/lmmtj.js"></script>
 {{ end -}}
