@@ -20,21 +20,13 @@ ignoreErrors = ["error-remote-getjson"]
 
 [menu]
   [[menu.main]]
-  name="哔哔"
-  url="/bbs/"
-  weight="1"
-  [[menu.main]]
-  name="友圈"
-  url="/friends/"
-  weight="2"
-  [[menu.main]]
   name="归档"
   url="/archives/"
-  weight="3"
+  weight="1"
   [[menu.main]]
   name="关于"
   url="/about/"
-  weight="4"
+  weight="2"
 
 [params]
   # dir name of your blog content (default is `content/posts`)
@@ -73,4 +65,3 @@ ignoreErrors = ["error-remote-getjson"]
 
 [params.twikoo]
 	enable = true
-
